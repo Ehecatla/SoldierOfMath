@@ -1,0 +1,179 @@
+[
+  {
+    "dialogue_id":"dialogue_1",
+    "dialogue_body":"Your Majesty, king of Math has announced new math tournament and you were invited to participate. It is early morning of tournament day and you have just arrived to encampment. -\n A brown haired, midsized boy runs up to you.",
+    "dialogue_type":"INTRO",
+    "dialogue_actor":"actor_1",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"1"
+  },
+
+  {
+    "dialogue_id":"dialogue_2",
+    "dialogue_body":"I am your squire appointed by our kingdom’s most beloved king. I was worried you would not make it on time for your first challenge; your first opponent is waiting for you in the arena. Please, follow me!",
+    "dialogue_type":"INTRO",
+    "dialogue_actor":"actor_2",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"0"
+  },
+
+  {
+    "dialogue_id":"dialogue_3",
+    "dialogue_body":"Ah Sir, there is no time to ask questions…- the squire frowned but his face relaxed a little soon after. – All right Sir, a knight cannot fight with right motivation if he does not know the purpose. ",
+    "dialogue_type":"INTRO",
+    "dialogue_actor":"actor_2",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"0"
+  },
+
+  {
+    "dialogue_id":"dialogue_4",
+    "dialogue_body":"Our Majesty, the king, sat the rules himself. Every able minded, daring soldier of this country were called to participate in this series of matches. You will face opponents of great motivation and fight against their mathematic genius answering in question rounds. If you answer question correctly, your motivation will rise and you will sure win the entire competition. If you choose not to answer or worse answer incorrectly, your motivation is sure to take damage and if it reaches bottom, you will not be able to participate any longer. Now, dear Sir, enough of theory, we have to hurry! – As squire speaks tournaments trumpets resonate through area, it is high time and every other remaining knight in area rushes to his destined arena.",
+    "dialogue_type":"INTRO",
+    "dialogue_actor":"actor_2",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"0"
+  },
+
+  {
+    "dialogue_id":"dialogue_5",
+    "dialogue_body":"Crowds are cheering when you enter the arena, the time has come to prove your worth. While you are gazing on the buty of arena, the decorations gold and blue, your enemy enters and even more cheer arises in the crowd.",
+    "dialogue_type":"INTRO",
+    "dialogue_actor":"actor_2",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"0"
+  },
+
+  {
+    "dialogue_id":"dialogue_6",
+    "dialogue_body":"Your motivation and health haven't been enough to win tournament. Your majesty, the king, hopes that next time you will represent him better.",
+    "dialogue_type":"OUTRO_LOST",
+    "dialogue_actor":"actor_1",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"1"
+  },
+
+  {
+    "dialogue_id":"dialogue_7",
+    "dialogue_body":"You have done it, you won! Crowds are cheering and king came down to arena himself to give you your reward and name you his champion.",
+    "dialogue_type":"OUTRO_WON",
+    "dialogue_actor":"actor_1",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"1"
+  },
+
+
+  {
+    "dialogue_id":"dialogue_9",
+    "dialogue_body":"I used to be a squire but I have beaten my knight protector during his mathematical training with me and thus I was chosen to participate instead, prepare to fight!",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_3",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"1"
+  },
+
+  {
+    "dialogue_id":"dialogue_10",
+    "dialogue_body":"[He shakes his head]You are overly confident Sir.I will prove you wrong.",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_3",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"0"
+  },
+
+  {
+    "dialogue_id":"dialogue_11",
+    "dialogue_body":"[Before your eyes appears tall man in dark armor decorated with spikes. He measures you and readies himself to attack!]",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_4",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"1"
+  },
+
+  {
+    "dialogue_id":"dialogue_12",
+    "dialogue_body":"I am Meridia of the Circle of Magi. I came here to challenge you to prove superiority of mathemagic.",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_5",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"1"
+  },
+
+  {
+    "dialogue_id":"dialogue_13",
+    "dialogue_body":"[When this knight marches into the field you cannot focus eyes on him. His armor is shining like thousands of suns. He smiles and greets you warmly.]A fellow knight, I came to win this tournament but I shall not be in despair if fate decides otherwise.",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_6",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"1"
+  },
+
+  {
+    "dialogue_id":"dialogue_14",
+    "dialogue_body":"One would think that all knight should have good manners, let us fight.[He answers still warmly and readies for attack]",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_6",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"0"
+  },
+
+  {
+    "dialogue_id":"dialogue_15",
+    "dialogue_body":"[It is a stable boy, what is he doing here is a big wonder. Yet he is very tall and strong and gives you no time to ponder as he runs at you with fork in hand.]",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_8",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"1"
+  },
+
+  {
+    "dialogue_id":"dialogue_16",
+    "dialogue_body":"[Sir Richard have been your childhood mentor and taught you basics of knighthood]. That day had to come, my boy. Let us see what you have learnt. Just know, I will not hold back!",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_7",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"1"
+  },
+
+
+  {
+    "dialogue_id":"dialogue_17",
+    "dialogue_body":"[Sir Richard rises his eyebrow in dissaproval and then silenly readies himself for the fight.]",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_7",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"0"
+  },
+  {
+    "dialogue_id":"dialogue_18",
+    "dialogue_body":"Oh, I haven't been in a good fight for a long time. Thank you for your time.",
+    "dialogue_type":"DEFAULT",
+    "dialogue_actor":"actor_7",
+    "story_parent":"story_1",
+    "dialogue_difficulty":"1",
+    "is_trigger":"0"
+  }
+
+
+
+
+
+
+
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "story_id": "story_1",
+    "story_title": "The tournament",
+    "story_intro": "dialogue_1",
+    "story_outro_won": "dialogue_7",
+    "story_outro_lost":"dialogue_6",
+    "story_background_img":"tournament",
+    "story_dialogue": ["dialogue_4","dialogue_5","dialogue_6","dialogue_7","dialogue_8"]
+  }
+
+]

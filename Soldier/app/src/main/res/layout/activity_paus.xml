@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    tools:context="com.ifragmented.apps.soldier.PausActivity">
+
+    <TextView
+        android:text="@string/your_game_is_paused"
+        style="@style/TitleTextView"
+        android:textSize="40sp"
+        android:textAlignment="gravity"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_btn"
+        android:onClick="continueGame"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/end_game_btn"
+        android:onClick="endGame"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

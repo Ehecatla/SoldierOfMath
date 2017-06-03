@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>SoldierDBContract.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #999999; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { color: rgb(0,0,0); }
+.s2 { color: rgb(128,128,128); font-style: italic; }
+.s3 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+SoldierDBContract.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">com.ifragmented.apps.soldier.data; 
+<a name="l2"><span class="ln">2    </span></a> 
+<a name="l3"><span class="ln">3    </span></a></span><span class="s0">import </span><span class="s1">android.provider.BaseColumns; 
+<a name="l4"><span class="ln">4    </span></a> 
+<a name="l5"><span class="ln">5    </span></a></span><span class="s2">/** 
+<a name="l6"><span class="ln">6    </span></a> * Created by Ella on 2017-02-05. 
+<a name="l7"><span class="ln">7    </span></a> */</span><span class="s1"> 
+<a name="l8"><span class="ln">8    </span></a> 
+<a name="l9"><span class="ln">9    </span></a></span><span class="s0">public class </span><span class="s1">SoldierDBContract { 
+<a name="l10"><span class="ln">10   </span></a> 
+<a name="l11"><span class="ln">11   </span></a>    </span><span class="s0">private </span><span class="s1">SoldierDBContract(){} 
+<a name="l12"><span class="ln">12   </span></a> 
+<a name="l13"><span class="ln">13   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_CREATE_USER_ENTRIES = </span><span class="s3">&quot;CREATE TABLE &quot; </span><span class="s1">+ UserTableFeed.TABLE_NAME +</span><span class="s3">&quot;(&quot;</span><span class="s1"> 
+<a name="l14"><span class="ln">14   </span></a>            + UserTableFeed._ID + </span><span class="s3">&quot; INTEGER PRIMARY KEY, &quot;</span><span class="s1"> 
+<a name="l15"><span class="ln">15   </span></a>            + UserTableFeed.COLUMN_NAME_NAME + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l16"><span class="ln">16   </span></a>            + UserTableFeed.COLUMN_NAME_STORY + </span><span class="s3">&quot; TEXT, &quot;</span><span class="s1"> 
+<a name="l17"><span class="ln">17   </span></a>            + UserTableFeed.COLUMN_NAME_SCORE + </span><span class="s3">&quot; INTEGER &quot;</span><span class="s1"> 
+<a name="l18"><span class="ln">18   </span></a>            + </span><span class="s3">&quot;);&quot;  </span><span class="s1">; 
+<a name="l19"><span class="ln">19   </span></a> 
+<a name="l20"><span class="ln">20   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_CREATE_ACTOR_ENTRIES = </span><span class="s3">&quot;CREATE TABLE &quot; </span><span class="s1">+ ActorTableFeed.TABLE_NAME +</span><span class="s3">&quot;(&quot;</span><span class="s1"> 
+<a name="l21"><span class="ln">21   </span></a>            + ActorTableFeed._ID + </span><span class="s3">&quot; INTEGER PRIMARY KEY, &quot;</span><span class="s1"> 
+<a name="l22"><span class="ln">22   </span></a>            + ActorTableFeed.COLUMN_ACTOR_ID + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l23"><span class="ln">23   </span></a>            + ActorTableFeed.COLUMN_NAME_NAME + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l24"><span class="ln">24   </span></a>            + ActorTableFeed.COLUMN_NAME_IMG + </span><span class="s3">&quot; TEXT &quot;</span><span class="s1"> 
+<a name="l25"><span class="ln">25   </span></a>            + </span><span class="s3">&quot;);&quot;  </span><span class="s1">; 
+<a name="l26"><span class="ln">26   </span></a> 
+<a name="l27"><span class="ln">27   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_CREATE_DIALOGUE_ENTRIES = </span><span class="s3">&quot;CREATE TABLE &quot; </span><span class="s1">+ DialogueTableFeed.TABLE_NAME +</span><span class="s3">&quot;(&quot;</span><span class="s1"> 
+<a name="l28"><span class="ln">28   </span></a>            + DialogueTableFeed._ID + </span><span class="s3">&quot; INTEGER PRIMARY KEY, &quot;</span><span class="s1"> 
+<a name="l29"><span class="ln">29   </span></a>            + DialogueTableFeed.COLUMN_NAME_ACTOR_ID + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l30"><span class="ln">30   </span></a>            + DialogueTableFeed.COLUMN_NAME_DIALOGUE_BODY + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l31"><span class="ln">31   </span></a>            + DialogueTableFeed.COLUMN_NAME_ID + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l32"><span class="ln">32   </span></a>            + DialogueTableFeed.COLUMN_NAME_TYPE + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l33"><span class="ln">33   </span></a>            + DialogueTableFeed.COLUMN_DIFFICULTY_LVL + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l34"><span class="ln">34   </span></a>            + DialogueTableFeed.COLUMN_PARENT_STORY + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l35"><span class="ln">35   </span></a>            + DialogueTableFeed.COLUMN_TRIGGER + </span><span class="s3">&quot; INTEGER&quot;</span><span class="s1"> 
+<a name="l36"><span class="ln">36   </span></a>            + </span><span class="s3">&quot;);&quot;  </span><span class="s1">; 
+<a name="l37"><span class="ln">37   </span></a> 
+<a name="l38"><span class="ln">38   </span></a>    </span><span class="s0">protected static </span><span class="s1">String SQL_CREATE_STORY_ENTRIES = </span><span class="s3">&quot;CREATE TABLE &quot; </span><span class="s1">+ StoryTableFeed.TABLE_NAME +</span><span class="s3">&quot;(&quot;</span><span class="s1"> 
+<a name="l39"><span class="ln">39   </span></a>            + StoryTableFeed._ID + </span><span class="s3">&quot; INTEGER PRIMARY KEY, &quot;</span><span class="s1"> 
+<a name="l40"><span class="ln">40   </span></a>            + StoryTableFeed.COLUMN_NAME_U_ID + </span><span class="s3">&quot; TEXT NOT NULL UNIQUE, &quot;</span><span class="s1"> 
+<a name="l41"><span class="ln">41   </span></a>            + StoryTableFeed.COLUMN_NAME_NAME + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l42"><span class="ln">42   </span></a>            + StoryTableFeed.COLUMN_NAME_INTRO + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l43"><span class="ln">43   </span></a>            + StoryTableFeed.COLUMN_NAME_O_LOST + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l44"><span class="ln">44   </span></a>            + StoryTableFeed.COLUMN_NAME_O_WON + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l45"><span class="ln">45   </span></a>            + StoryTableFeed.COLUMN_NAME_B_IMG + </span><span class="s3">&quot; TEXT &quot;</span><span class="s1"> 
+<a name="l46"><span class="ln">46   </span></a>            + </span><span class="s3">&quot;);&quot;</span><span class="s1">; 
+<a name="l47"><span class="ln">47   </span></a> 
+<a name="l48"><span class="ln">48   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_CREATE_ANSWER_ENTRIES = </span><span class="s3">&quot;CREATE TABLE &quot; </span><span class="s1">+ AnswerTableFeed.TABLE_NAME +</span><span class="s3">&quot;(&quot;</span><span class="s1"> 
+<a name="l49"><span class="ln">49   </span></a>            + AnswerTableFeed._ID + </span><span class="s3">&quot; INTEGER PRIMARY KEY, &quot;</span><span class="s1"> 
+<a name="l50"><span class="ln">50   </span></a>            + AnswerTableFeed.COLUMN_NAME_ANSWER_ID+ </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l51"><span class="ln">51   </span></a>            + AnswerTableFeed.COLUMN_NAME_ANSWER + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l52"><span class="ln">52   </span></a>            + AnswerTableFeed.COLUMN_NAME_OUTCOME + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l53"><span class="ln">53   </span></a>            + AnswerTableFeed.COLUMN_DIALOGUE_FOLLOWUP + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l54"><span class="ln">54   </span></a>            + AnswerTableFeed.COLUMN_DIFFICULTY_OFFSET+ </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l55"><span class="ln">55   </span></a>            + AnswerTableFeed.COLUMN_PARENT_DIALOGUE+ </span><span class="s3">&quot; TEXT NOT NULL &quot;</span><span class="s1"> 
+<a name="l56"><span class="ln">56   </span></a>            + </span><span class="s3">&quot;);&quot;  </span><span class="s1">; 
+<a name="l57"><span class="ln">57   </span></a> 
+<a name="l58"><span class="ln">58   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_CREATE_CHALLENGE_ENTRIES = </span><span class="s3">&quot;CREATE TABLE &quot; </span><span class="s1">+ ChallengeTableFeed.TABLE_NAME +</span><span class="s3">&quot;(&quot;</span><span class="s1"> 
+<a name="l59"><span class="ln">59   </span></a>            + ChallengeTableFeed._ID + </span><span class="s3">&quot; INTEGER PRIMARY KEY, &quot;</span><span class="s1"> 
+<a name="l60"><span class="ln">60   </span></a>            + ChallengeTableFeed.COLUMN_CH_BODY+ </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l61"><span class="ln">61   </span></a>            + ChallengeTableFeed.COLUMN_CH_DIFFICULTY + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l62"><span class="ln">62   </span></a>            + ChallengeTableFeed.COLUMN_CH_ALTERNATIVES + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l63"><span class="ln">63   </span></a>            + ChallengeTableFeed.COLUMN_CH_CORRECT + </span><span class="s3">&quot; TEXT NOT NULL, &quot;</span><span class="s1"> 
+<a name="l64"><span class="ln">64   </span></a>            + ChallengeTableFeed.COLUMN_CH_ID + </span><span class="s3">&quot; TEXT NOT NULL &quot;</span><span class="s1"> 
+<a name="l65"><span class="ln">65   </span></a>            + </span><span class="s3">&quot;);&quot;  </span><span class="s1">; 
+<a name="l66"><span class="ln">66   </span></a> 
+<a name="l67"><span class="ln">67   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_DELETE_USER_ENTRIES = 
+<a name="l68"><span class="ln">68   </span></a>            </span><span class="s3">&quot;DROP TABLE IF EXISTS &quot; </span><span class="s1">+ UserTableFeed.TABLE_NAME; 
+<a name="l69"><span class="ln">69   </span></a> 
+<a name="l70"><span class="ln">70   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_DELETE_STORY_ENTRIES = 
+<a name="l71"><span class="ln">71   </span></a>            </span><span class="s3">&quot;DROP TABLE IF EXISTS &quot; </span><span class="s1">+ StoryTableFeed.TABLE_NAME; 
+<a name="l72"><span class="ln">72   </span></a> 
+<a name="l73"><span class="ln">73   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_DELETE_NPC_ENTRIES = 
+<a name="l74"><span class="ln">74   </span></a>            </span><span class="s3">&quot;DROP TABLE IF EXISTS &quot; </span><span class="s1">+ ActorTableFeed.TABLE_NAME; 
+<a name="l75"><span class="ln">75   </span></a> 
+<a name="l76"><span class="ln">76   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_DELETE_DIALOGUE_ENTRIES = 
+<a name="l77"><span class="ln">77   </span></a>            </span><span class="s3">&quot;DROP TABLE IF EXISTS &quot; </span><span class="s1">+ DialogueTableFeed.TABLE_NAME; 
+<a name="l78"><span class="ln">78   </span></a> 
+<a name="l79"><span class="ln">79   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_DELETE_ANSWER_ENTRIES = 
+<a name="l80"><span class="ln">80   </span></a>            </span><span class="s3">&quot;DROP TABLE IF EXISTS &quot; </span><span class="s1">+ AnswerTableFeed.TABLE_NAME; 
+<a name="l81"><span class="ln">81   </span></a> 
+<a name="l82"><span class="ln">82   </span></a>    </span><span class="s0">protected static final </span><span class="s1">String SQL_DELETE_CHALLENGE_ENTRIES = 
+<a name="l83"><span class="ln">83   </span></a>            </span><span class="s3">&quot;DROP TABLE IF EXISTS &quot; </span><span class="s1">+ ChallengeTableFeed.TABLE_NAME; 
+<a name="l84"><span class="ln">84   </span></a> 
+<a name="l85"><span class="ln">85   </span></a> 
+<a name="l86"><span class="ln">86   </span></a>    </span><span class="s0">protected static class </span><span class="s1">UserTableFeed </span><span class="s0">implements </span><span class="s1">BaseColumns { 
+<a name="l87"><span class="ln">87   </span></a>        </span><span class="s0">protected static final </span><span class="s1">String TABLE_NAME = </span><span class="s3">&quot;USERS&quot;</span><span class="s1">; 
+<a name="l88"><span class="ln">88   </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_NAME = </span><span class="s3">&quot;NAME&quot;</span><span class="s1">; 
+<a name="l89"><span class="ln">89   </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_SCORE = </span><span class="s3">&quot;SCORE&quot;</span><span class="s1">; 
+<a name="l90"><span class="ln">90   </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_STORY = </span><span class="s3">&quot;STORY&quot;</span><span class="s1">; </span><span class="s2">//story title, could be key to story in future instead</span><span class="s1"> 
+<a name="l91"><span class="ln">91   </span></a>    } 
+<a name="l92"><span class="ln">92   </span></a> 
+<a name="l93"><span class="ln">93   </span></a>    </span><span class="s2">//intro,outroL,outroW,dialogues, background);</span><span class="s1"> 
+<a name="l94"><span class="ln">94   </span></a>    </span><span class="s0">protected static class </span><span class="s1">StoryTableFeed </span><span class="s0">implements </span><span class="s1">BaseColumns { 
+<a name="l95"><span class="ln">95   </span></a>        </span><span class="s0">protected static final </span><span class="s1">String TABLE_NAME = </span><span class="s3">&quot;STORY&quot;</span><span class="s1">; 
+<a name="l96"><span class="ln">96   </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_U_ID = </span><span class="s3">&quot;STORY_ID&quot;</span><span class="s1">; 
+<a name="l97"><span class="ln">97   </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_NAME = </span><span class="s3">&quot;STORY_TITLE&quot;</span><span class="s1">; 
+<a name="l98"><span class="ln">98   </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_INTRO = </span><span class="s3">&quot;STORY_INTRO&quot;</span><span class="s1">; 
+<a name="l99"><span class="ln">99   </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_O_LOST = </span><span class="s3">&quot;STORY_O_LOST&quot;</span><span class="s1">; 
+<a name="l100"><span class="ln">100  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_O_WON = </span><span class="s3">&quot;STORY_O_WON&quot;</span><span class="s1">; 
+<a name="l101"><span class="ln">101  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_B_IMG= </span><span class="s3">&quot;STORY_BACKGROUND_IMG&quot;</span><span class="s1">; 
+<a name="l102"><span class="ln">102  </span></a>        </span><span class="s2">//protected static final String COLUMN_NAME_DIALOGUES = &quot;STORY_DIALOGUES&quot;;</span><span class="s1"> 
+<a name="l103"><span class="ln">103  </span></a>    } 
+<a name="l104"><span class="ln">104  </span></a> 
+<a name="l105"><span class="ln">105  </span></a>    </span><span class="s0">protected static class </span><span class="s1">ChallengeTableFeed </span><span class="s0">implements </span><span class="s1">BaseColumns { 
+<a name="l106"><span class="ln">106  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String TABLE_NAME = </span><span class="s3">&quot;CHALLENGES&quot;</span><span class="s1">; 
+<a name="l107"><span class="ln">107  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_CH_BODY = </span><span class="s3">&quot;CHALLENGE_BODY&quot;</span><span class="s1">; 
+<a name="l108"><span class="ln">108  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_CH_DIFFICULTY= </span><span class="s3">&quot;CHALLENGE_DIFF&quot;</span><span class="s1">; 
+<a name="l109"><span class="ln">109  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_CH_CORRECT = </span><span class="s3">&quot;CHALLENGE_CORRECT_A&quot;</span><span class="s1">; 
+<a name="l110"><span class="ln">110  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_CH_ALTERNATIVES = </span><span class="s3">&quot;CHALLENGE_ALTERNATIVES&quot;</span><span class="s1">; 
+<a name="l111"><span class="ln">111  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_CH_ID = </span><span class="s3">&quot;CHALLENGE_ID&quot;</span><span class="s1">; 
+<a name="l112"><span class="ln">112  </span></a>    } 
+<a name="l113"><span class="ln">113  </span></a> 
+<a name="l114"><span class="ln">114  </span></a>    </span><span class="s2">//DIALOGUE_TYPE, DIALOGUE_BODY, ANSWER_TABLE_ID(can be many answers), NPC_TABLE_ID (foreign key)</span><span class="s1"> 
+<a name="l115"><span class="ln">115  </span></a>    </span><span class="s0">protected static class </span><span class="s1">DialogueTableFeed </span><span class="s0">implements </span><span class="s1">BaseColumns { 
+<a name="l116"><span class="ln">116  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String TABLE_NAME = </span><span class="s3">&quot;DIALOGUES&quot;</span><span class="s1">; 
+<a name="l117"><span class="ln">117  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_TYPE= </span><span class="s3">&quot;TYPE&quot;</span><span class="s1">; </span><span class="s2">//should make it one of few choices only in table creation</span><span class="s1"> 
+<a name="l118"><span class="ln">118  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_DIFFICULTY_LVL= </span><span class="s3">&quot;DIALOGUE_DIFFICULTY&quot;</span><span class="s1">; </span><span class="s2">//base difficulty of dialogue, used to count difficulty for challenge, offset by answer diff offset</span><span class="s1"> 
+<a name="l119"><span class="ln">119  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String  COLUMN_NAME_ID = </span><span class="s3">&quot;DIALOGUE_ID&quot;</span><span class="s1">; 
+<a name="l120"><span class="ln">120  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_ACTOR_ID = </span><span class="s3">&quot;ACTOR_ID&quot;</span><span class="s1">; 
+<a name="l121"><span class="ln">121  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_DIALOGUE_BODY = </span><span class="s3">&quot;DIALOGUE_BODY&quot;</span><span class="s1">; 
+<a name="l122"><span class="ln">122  </span></a>        </span><span class="s0">public static final </span><span class="s1">String COLUMN_PARENT_STORY = </span><span class="s3">&quot;PARENT_STORY&quot;</span><span class="s1">; 
+<a name="l123"><span class="ln">123  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_TRIGGER =</span><span class="s3">&quot;IS_TRIGGER&quot;</span><span class="s1">; 
+<a name="l124"><span class="ln">124  </span></a>    } 
+<a name="l125"><span class="ln">125  </span></a> 
+<a name="l126"><span class="ln">126  </span></a>    </span><span class="s0">protected static class </span><span class="s1">ActorTableFeed </span><span class="s0">implements </span><span class="s1">BaseColumns { 
+<a name="l127"><span class="ln">127  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String TABLE_NAME = </span><span class="s3">&quot;NPCS&quot;</span><span class="s1">; 
+<a name="l128"><span class="ln">128  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_ACTOR_ID = </span><span class="s3">&quot;NPCS_ID&quot;</span><span class="s1">; 
+<a name="l129"><span class="ln">129  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_NAME = </span><span class="s3">&quot;NAME&quot;</span><span class="s1">; 
+<a name="l130"><span class="ln">130  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_IMG = </span><span class="s3">&quot;IMAGE_ID&quot;</span><span class="s1">; 
+<a name="l131"><span class="ln">131  </span></a>    } 
+<a name="l132"><span class="ln">132  </span></a> 
+<a name="l133"><span class="ln">133  </span></a>    </span><span class="s0">protected static class </span><span class="s1">AnswerTableFeed </span><span class="s0">implements </span><span class="s1">BaseColumns { 
+<a name="l134"><span class="ln">134  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String TABLE_NAME = </span><span class="s3">&quot;ANSWERS&quot;</span><span class="s1">; 
+<a name="l135"><span class="ln">135  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_ANSWER_ID = </span><span class="s3">&quot;ANSWER_ID&quot;</span><span class="s1">; 
+<a name="l136"><span class="ln">136  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_ANSWER = </span><span class="s3">&quot;ANSWER&quot;</span><span class="s1">; 
+<a name="l137"><span class="ln">137  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_NAME_OUTCOME = </span><span class="s3">&quot;OUTCOME&quot;</span><span class="s1">; 
+<a name="l138"><span class="ln">138  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_DIALOGUE_FOLLOWUP =</span><span class="s3">&quot;DIALOGUE_FOLLOWUP&quot;</span><span class="s1">; 
+<a name="l139"><span class="ln">139  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_DIFFICULTY_OFFSET =</span><span class="s3">&quot;DIFFICULTY_OFFSET&quot;</span><span class="s1">; 
+<a name="l140"><span class="ln">140  </span></a>        </span><span class="s0">protected static final </span><span class="s1">String COLUMN_PARENT_DIALOGUE = </span><span class="s3">&quot;PARENT_DIALOGUE&quot;</span><span class="s1">; 
+<a name="l141"><span class="ln">141  </span></a>    } 
+<a name="l142"><span class="ln">142  </span></a>} 
+<a name="l143"><span class="ln">143  </span></a></span></pre>
+</body>
+</html>

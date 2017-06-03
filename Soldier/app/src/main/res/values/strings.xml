@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Soldier of math</string>
+    <string name="about">About</string>
+    <string name="new_game">New game</string>
+    <string name="game_title">Soldier of math</string>
+    <string name="title_new_game">New game</string>
+    <string name="user_info_text">You are almost ready to enbark on a new journey. Please write nickname you want to use. The nickname will be used on scoreboard.</string>
+    <string name="username_hint">Username</string>
+    <string name="continue_txt">Continue</string>
+    <string name="about_title">About</string>
+    <string name="about_descr">Soldier of Math is school project created by Ella Einarsen. This mathematic game is all about role-play and fun with math at same time.</string>
+    <string name="scoreboard_title">Scoreboard</string>
+    <string name="toast_fb_1">Username is invalid.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_game_is_paused">Your game is paused!</string>
+    <string name="continue_btn">Continue</string>
+    <string name="end_game_btn">End game</string>
+</resources>

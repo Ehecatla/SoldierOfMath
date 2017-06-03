@@ -1,0 +1,84 @@
+[
+  {
+    "actor_id":"actor_1",
+    "actor_name":"Storyteller",
+    "actor_img":"squire"
+  },
+  {
+    "actor_id":"actor_2",
+    "actor_name":"Squire",
+    "actor_img":"warrior"
+  },
+
+  {
+    "actor_id":"actor_3",
+    "actor_name":"Blonde Knight",
+    "actor_img":"knight"
+  },
+
+  {
+    "actor_id":"actor_4",
+    "actor_name":"Black Knight",
+    "actor_img":"blackknight"
+  },
+
+  {
+    "actor_id":"actor_5",
+    "actor_name":"Sorceress",
+    "actor_img":"sorceress"
+  },
+
+  {
+    "actor_id":"actor_6",
+    "actor_name":"White Knight",
+    "actor_img":"whiteknight"
+  },
+
+  {
+    "actor_id":"actor_7",
+    "actor_name":"Sir Richard",
+    "actor_img":"sirrichard"
+  },
+
+  {
+    "actor_id":"actor_8",
+    "actor_name":"Stable boy",
+    "actor_img":"stableboy"
+  },
+
+  {
+    "actor_id":"actor_9",
+    "actor_name":"Mage",
+    "actor_img":"mage"
+  },
+
+  {
+    "actor_id":"actor_10",
+    "actor_name":"Orc",
+    "actor_img":"orc"
+  },
+
+  {
+    "actor_id":"actor_11",
+    "actor_name":"Ghost",
+    "actor_img":"ghost"
+  },
+
+  {
+    "actor_id":"actor_12",
+    "actor_name":"Chicken",
+    "actor_img":"chicken"
+  },
+
+  {
+    "actor_id":"actor_13",
+    "actor_name":"Huntress",
+    "actor_img":"huntress"
+  },
+
+  {
+    "actor_id":"actor_14",
+    "actor_name":"Elf Woman",
+    "actor_img":"huntress"
+  }
+]

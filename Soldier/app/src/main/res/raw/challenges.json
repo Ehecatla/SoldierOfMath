@@ -1,0 +1,552 @@
+[
+
+  {
+    "challenge_id":"ch_1",
+    "difficulty":"EASY",
+    "body":"2 * 5",
+    "alternatives":"10,5,11,25",
+    "correct_alt":"10"
+  },
+  {
+    "challenge_id":"ch_2",
+    "difficulty":"EASY",
+    "body":"7 + 8",
+    "alternatives":"12,13,16,15",
+    "correct_alt":"15"
+  },
+  {
+    "challenge_id":"ch_3",
+    "difficulty":"EASY",
+    "body":"40 - 15",
+    "alternatives":"30,25,15,35",
+    "correct_alt":"25"
+  },
+  {
+    "challenge_id":"ch_4",
+    "difficulty":"EASY",
+    "body":"3 * 11",
+    "alternatives":"36,42,33,31",
+    "correct_alt":"33"
+  },
+  {
+    "challenge_id":"ch_5",
+    "difficulty":"EASY",
+    "body":"7 * 7",
+    "alternatives":"42,48,36,49",
+    "correct_alt":"49"
+  },
+  {
+    "challenge_id":"ch_6",
+    "difficulty":"EASY",
+    "body":"25 + 32",
+    "alternatives":"75,52,62,57",
+    "correct_alt":"57"
+  },
+  {
+    "challenge_id":"ch_7",
+    "difficulty":"EASY",
+    "body":"6 * 5",
+    "alternatives":"30,24,32,35",
+    "correct_alt":"30"
+  },
+  {
+    "challenge_id":"ch_8",
+    "difficulty":"EASY",
+    "body":"12 * 5",
+    "alternatives":"60,75,45,58",
+    "correct_alt":"60"
+  },
+  {
+    "challenge_id":"ch_9",
+    "difficulty":"EASY",
+    "body":"27 / 3",
+    "alternatives":"7,9,8,6",
+    "correct_alt":"9"
+  },
+  {
+    "challenge_id":"ch_10",
+    "difficulty":"EASY",
+    "body":"100 / 10",
+    "alternatives":"12,10,5,20",
+    "correct_alt":"10"
+  },
+  {
+    "challenge_id":"ch_11",
+    "difficulty":"EASY",
+    "body":"10 * 13",
+    "alternatives":"130,133,100,99",
+    "correct_alt":"130"
+  },
+  {
+    "challenge_id":"ch_12",
+    "difficulty":"EASY",
+    "body":"15 * 5",
+    "alternatives":"155,150,95,75",
+    "correct_alt":"75"
+  },
+  {
+    "challenge_id":"ch_13",
+    "difficulty":"EASY",
+    "body":"27 + 43",
+    "alternatives":"57,67,70,72",
+    "correct_alt":"70"
+  },
+  {
+    "challenge_id":"ch_14",
+    "difficulty":"EASY",
+    "body":"75 / 25",
+    "alternatives":"5,15,3,7",
+    "correct_alt":"3"
+  },
+  {
+    "challenge_id":"ch_15",
+    "difficulty":"EASY",
+    "body":"6 * 4",
+    "alternatives":"24,18,26,32",
+    "correct_alt":"24"
+  },
+  {
+    "challenge_id":"ch_16",
+    "difficulty":"EASY",
+    "body":"6 * 9",
+    "alternatives":"42,46,48,54",
+    "correct_alt":"54"
+  },
+  {
+    "challenge_id":"ch_17",
+    "difficulty":"EASY",
+    "body":"63 / 7",
+    "alternatives":"11,13,7,9",
+    "correct_alt":"9"
+  },
+  {
+    "challenge_id":"ch_18",
+    "difficulty":"EASY",
+    "body":"45 / 5",
+    "alternatives":"15,7,11,9",
+    "correct_alt":"9"
+  },
+  {
+    "challenge_id":"ch_19",
+    "difficulty":"EASY",
+    "body":"45 / 9",
+    "alternatives":"5,6,7,9",
+    "correct_alt":"5"
+  },
+  {
+    "challenge_id":"ch_20",
+    "difficulty":"EASY",
+    "body":"20 * 5",
+    "alternatives":"120,100,80,250",
+    "correct_alt":"100"
+  },
+  {
+    "challenge_id":"ch_21",
+    "difficulty":"EASY",
+    "body":"75 + 35",
+    "alternatives":"100,105,110,115",
+    "correct_alt":"110"
+  },
+  {
+    "challenge_id":"ch_22",
+    "difficulty":"EASY",
+    "body":"12 * 3",
+    "alternatives":"36,32,22,44",
+    "correct_alt":"36"
+  },
+  {
+    "challenge_id":"ch_23",
+    "difficulty":"EASY",
+    "body":"23 + 23",
+    "alternatives":"43,48,46,42",
+    "correct_alt":"46"
+  },
+  {
+    "challenge_id":"ch_24",
+    "difficulty":"EASY",
+    "body":"72 - 22",
+    "alternatives":"40,50,52,42",
+    "correct_alt":"50"
+  },
+  {
+    "challenge_id":"ch_25",
+    "difficulty":"EASY",
+    "body":"18 + 22",
+    "alternatives":"40,32,58,52",
+    "correct_alt":"40"
+  },
+  {
+    "challenge_id":"ch_26",
+    "difficulty":"EASY",
+    "body":"5 * 13",
+    "alternatives":"75,70,55,65",
+    "correct_alt":"65"
+  },
+  {
+    "challenge_id":"ch_27",
+    "difficulty":"MEDIUM",
+    "body":"2 + 5 - 7",
+    "alternatives":"2,11,14,0",
+    "correct_alt":"0"
+  },
+  {
+    "challenge_id":"ch_28",
+    "difficulty":"MEDIUM",
+    "body":"25 * 6",
+    "alternatives":"125,200,155,150",
+    "correct_alt":"150"
+  },
+  {
+    "challenge_id":"ch_29",
+    "difficulty":"MEDIUM",
+    "body":"148 - 48 + 37",
+    "alternatives":"172,167,137,233",
+    "correct_alt":"137"
+  },
+  {
+    "challenge_id":"ch_30",
+    "difficulty":"MEDIUM",
+    "body":"121 / 11",
+    "alternatives":"11,12,15,7,9",
+    "correct_alt":"11"
+  },
+  {
+    "challenge_id":"ch_31",
+    "difficulty":"MEDIUM",
+    "body":"15 * 15",
+    "alternatives":"200,175,195,225",
+    "correct_alt":"225"
+  },
+  {
+    "challenge_id":"ch_32",
+    "difficulty":"MEDIUM",
+    "body":"169 / 13",
+    "alternatives":"13,14,16,17",
+    "correct_alt":"13"
+  },
+  {
+    "challenge_id":"ch_33",
+    "difficulty":"MEDIUM",
+    "body":"500 / 10",
+    "alternatives":"150,100,5,50",
+    "correct_alt":"50"
+  },
+  {
+    "challenge_id":"ch_34",
+    "difficulty":"MEDIUM",
+    "body":"34 * 3",
+    "alternatives":"112,122,98,102",
+    "correct_alt":"102"
+  },
+  {
+    "challenge_id":"ch_35",
+    "difficulty":"MEDIUM",
+    "body":"15 + 7 + 15",
+    "alternatives":"32,42,47,37",
+    "correct_alt":"37"
+  },
+  {
+    "challenge_id":"ch_36",
+    "difficulty":"MEDIUM",
+    "body":"(85 - 82) * 3",
+    "alternatives":"243,246,11,9",
+    "correct_alt":"9"
+  },
+  {
+    "challenge_id":"ch_37",
+    "difficulty":"MEDIUM",
+    "body":"52 * 2 - 24",
+    "alternatives":"80,52,108,84",
+    "correct_alt":"80"
+  },
+  {
+    "challenge_id":"ch_38",
+    "difficulty":"MEDIUM",
+    "body":"250 - 75 -25",
+    "alternatives":"125,275,325,150",
+    "correct_alt":"150"
+  },
+  {
+    "challenge_id":"ch_39",
+    "difficulty":"MEDIUM",
+    "body":"14 * 14",
+    "alternatives":"156,192,196,198",
+    "correct_alt":"196"
+  },
+  {
+    "challenge_id":"ch_40",
+    "difficulty":"MEDIUM",
+    "body":"400 / 20",
+    "alternatives":"50,40,20,30",
+    "correct_alt":"20"
+  },
+  {
+    "challenge_id":"ch_41",
+    "difficulty":"MEDIUM",
+    "body":"21 * 20",
+    "alternatives":"430,420,421,411",
+    "correct_alt":"420"
+  },
+  {
+    "challenge_id":"ch_42",
+    "difficulty":"MEDIUM",
+    "body":"200 / 200 + 32",
+    "alternatives":"32,52,33,30",
+    "correct_alt":"33"
+  },
+  {
+    "challenge_id":"ch_43",
+    "difficulty":"MEDIUM",
+    "body":"80 + 40 + 2",
+    "alternatives":"132,140,122,124",
+    "correct_alt":"122"
+  },
+
+  {
+    "challenge_id":"ch_45",
+    "difficulty":"MEDIUM",
+    "body":"80 / 5",
+    "alternatives":"16,20,42,25",
+    "correct_alt":"16"
+  },
+  {
+    "challenge_id":"ch_46",
+    "difficulty":"MEDIUM",
+    "body":"11 * 12",
+    "alternatives":"100,152,242,132",
+    "correct_alt":"132"
+  },
+  {
+    "challenge_id":"ch_47",
+    "difficulty":"MEDIUM",
+    "body":"150 - 55 + 5",
+    "alternatives":"100,105,125,200",
+    "correct_alt":"100"
+  },
+  {
+    "challenge_id":"ch_48",
+    "difficulty":"MEDIUM",
+    "body":"77 / 11",
+    "alternatives":"7,8,11,12",
+    "correct_alt":"7"
+  },
+  {
+    "challenge_id":"ch_49",
+    "difficulty":"MEDIUM",
+    "body":"81 + 100 -1",
+    "alternatives":"180,281,181,179",
+    "correct_alt":"180"
+  },
+  {
+    "challenge_id":"ch_50",
+    "difficulty":"MEDIUM",
+    "body":"15 + 75",
+    "alternatives":"95,105,90,85",
+    "correct_alt":"90"
+  },
+  {
+    "challenge_id":"ch_51",
+    "difficulty":"HARD",
+    "body":"15 * 14",
+    "alternatives":"210,220,222,208",
+    "correct_alt":"210"
+  },
+  {
+    "challenge_id":"ch_52",
+    "difficulty":"HARD",
+    "body":"21 * 13",
+    "alternatives":"271,272,273,268",
+    "correct_alt":"273"
+  },
+  {
+    "challenge_id":"ch_53",
+    "difficulty":"HARD",
+    "body":"427 - 52 - 55",
+    "alternatives":"287,307,320,322",
+    "correct_alt":"320"
+  },
+  {
+    "challenge_id":"ch_54",
+    "difficulty":"HARD",
+    "body":"7 * 7 + 32",
+    "alternatives":"52,74,89,81",
+    "correct_alt":"81"
+  },
+  {
+    "challenge_id":"ch_55",
+    "difficulty":"HARD",
+    "body":"81 * 3",
+    "alternatives":"243,200,216,262",
+    "correct_alt":"243"
+  },
+  {
+    "challenge_id":"ch_56",
+    "difficulty":"HARD",
+    "body":"22 * 22",
+    "alternatives":"400,386,484,494",
+    "correct_alt":"484"
+  },
+  {
+    "challenge_id":"ch_57",
+    "difficulty":"HARD",
+    "body":"11 * 7 + 2",
+    "alternatives":"72,79,90,82",
+    "correct_alt":"79"
+  },
+
+  {
+    "challenge_id":"ch_59",
+    "difficulty":"HARD",
+    "body":"25 / 5 * 15",
+    "alternatives":"70,75,115,5",
+    "correct_alt":"75"
+  },
+  {
+    "challenge_id":"ch_60",
+    "difficulty":"HARD",
+    "body":"800 / 8 + 105",
+    "alternatives":"205,105,200,7",
+    "correct_alt":"205"
+  },
+  {
+    "challenge_id":"ch_61",
+    "difficulty":"HARD",
+    "body":"13 * 17",
+    "alternatives":"252,221,202,181",
+    "correct_alt":"221"
+  },
+  {
+    "challenge_id":"ch_62",
+    "difficulty":"HARD",
+    "body":"19 * 25",
+    "alternatives":"470,424,475,485",
+    "correct_alt":"485"
+  },
+  {
+    "challenge_id":"ch_63",
+    "difficulty":"HARD",
+    "body":"932 - 474",
+    "alternatives":"458,452,1406,1420",
+    "correct_alt":"458"
+  },
+  {
+    "challenge_id":"ch_64",
+    "difficulty":"HARD",
+    "body":"772 + 70 - 22",
+    "alternatives":"800,732,900,820",
+    "correct_alt":"820"
+  },
+  {
+    "challenge_id":"ch_65",
+    "difficulty":"HARD",
+    "body":"13 * 5 + 75",
+    "alternatives":"65,95,140,150",
+    "correct_alt":"140"
+  },
+  {
+    "challenge_id":"ch_66",
+    "difficulty":"HARD",
+    "body":"(292 - 108) / 4",
+    "alternatives":"48,42,40,46",
+    "correct_alt":"46"
+  },
+  {
+    "challenge_id":"ch_67",
+    "difficulty":"HARD",
+    "body":"333 - 33 + 57",
+    "alternatives":"372,402,390,357",
+    "correct_alt":"357"
+  },
+  {
+    "challenge_id":"ch_68",
+    "difficulty":"HARD",
+    "body":"9 * 2 * 7",
+    "alternatives":"126,124,202,171",
+    "correct_alt":"126"
+  },
+  {
+    "challenge_id":"ch_69",
+    "difficulty":"HARD",
+    "body":"19 + 73 + 52",
+    "alternatives":"124,122,144,164",
+    "correct_alt":"144"
+  },
+  {
+    "challenge_id":"ch_70",
+    "difficulty":"HARD",
+    "body":"8 * 16 * 2",
+    "alternatives":"200,240,256,260",
+    "correct_alt":"256"
+  },
+  {
+    "challenge_id":"ch_71",
+    "difficulty":"VERY_HARD",
+    "body":"1221 / 3",
+    "alternatives":"437,336,407,411",
+    "correct_alt":"407"
+  },
+  {
+    "challenge_id":"ch_72",
+    "difficulty":"VERY_HARD",
+    "body":"1725 + 305 - 275 + 1",
+    "alternatives":"2750,2735,1727,1756",
+    "correct_alt":"1756"
+  },
+  {
+    "challenge_id":"ch_73",
+    "difficulty":"VERY_HARD",
+    "body":"23 * 30",
+    "alternatives":"623,680,690,703",
+    "correct_alt":"690"
+  },
+  {
+    "challenge_id":"ch_74",
+    "difficulty":"VERY_HARD",
+    "body":"12 / 3 * 6 - 2",
+    "alternatives":"46,42,18,22",
+    "correct_alt":"22"
+  },
+  {
+    "challenge_id":"ch_75",
+    "difficulty":"VERY_HARD",
+    "body":"78 -32 + 77",
+    "alternatives":"124,120,121,123",
+    "correct_alt":"123"
+  },
+  {
+    "challenge_id":"ch_76",
+    "difficulty":"VERY_HARD",
+    "body":"(802 - 791) * 2",
+    "alternatives":"72,11,66,22",
+    "correct_alt":"22"
+  },
+  {
+    "challenge_id":"ch_77",
+    "difficulty":"VERY_HARD",
+    "body":"352 * 3 - 900",
+    "alternatives":"56,156,152,142",
+    "correct_alt":"156"
+  },
+  {
+    "challenge_id":"ch_78",
+    "difficulty":"VERY_HARD",
+    "body":"723 / 3",
+    "alternatives":"241,201,302,239",
+    "correct_alt":"241"
+  },
+  {
+    "challenge_id":"ch_79",
+    "difficulty":"VERY_HARD",
+    "body":"17 * 17 - 120",
+    "alternatives":"102,169,172,167",
+    "correct_alt":"169"
+  },
+  {
+    "challenge_id":"ch_80",
+    "difficulty":"VERY_HARD",
+    "body":"45 + 45 -80 + 5",
+    "alternatives":"25,15,125,5",
+    "correct_alt":"15"
+  }
+
+]
